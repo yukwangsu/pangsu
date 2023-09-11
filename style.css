@@ -1,0 +1,244 @@
+body {
+    background: linear-gradient(rgb(0, 4, 24), rgb(72, 72, 109));
+  }
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+#hello {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+#name {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+
+}
+
+#github_img {
+    width: 130px;
+    height: 130px;
+}
+
+#baekjoon_img {
+    width: 130px;
+    height: 130px;
+}
+
+#js_img {
+    width: 130px;
+    height: 130px;
+}
+
+#instagram_img {
+    width: 130px;
+    height: 130px;
+}
+
+#trashpang_img {
+    width: 130px;
+    height: 130px;
+}
+
+#big_box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.small_box {
+    background-color: white;
+    border-radius : 30px;
+    padding : 30px;
+    height: 200px;
+    margin: 0 80px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(90%);
+    box-shadow: 3px 3px 3px;
+}
+
+.small_box_none {
+    background-color: rgb(43, 41, 41);
+    border-radius : 30px;
+    padding : 30px;
+    height: 200px;
+    margin: 0 80px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(90%);
+    box-shadow: 3px 3px 3px;
+}
+
+.click_text {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark {
+    filter: brightness(40%);
+}
+
+.information {  
+    color: white;
+    font-size: 20px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.fade-in1 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+    
+    animation: fadein 3s;
+    animation-delay: 1s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+.fade-in2 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+    
+    animation: fadein 3s;
+    animation-delay: 1.4s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+  
+
+.fade-in-box1 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+    
+    animation: fadein 3s;
+    animation-delay: 2.1s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 2.1s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+ 
+  
+.fade-in-box2 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+    
+    animation: fadein 3s;
+    animation-delay: 2.4s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+  
+
+.fade-in-box3 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+
+    animation: fadein 3s;
+    animation-delay: 2.7s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+
+.fade-in-box4 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+
+    animation: fadein 3s;
+    animation-delay: 3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+
+.fade-in-box5 {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+
+    animation: fadein 3s;
+    animation-delay: 3.3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+.fade-in-box-none {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+
+    animation: fadein 3s;
+    animation-delay: 3.6s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
