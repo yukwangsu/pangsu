@@ -51,6 +51,11 @@ h1 {
     height: 130px;
 }
 
+#blog_img {
+    width: 130px;
+    height: 130px;
+}
+
 #big_box {
     display: flex;
     margin-bottom: 50px;
@@ -198,7 +203,7 @@ h1 {
     opacity:0;
 }
 
-.fade-in-box-none {
+.fade-in-box6 {
     -moz-animation: fadein 3s; /* Firefox */
     -o-animation: fadein 3s; /* Opera */
 
@@ -206,6 +211,18 @@ h1 {
     animation-delay: 3.6s;
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -webkit-animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+
+.fade-in-box-none {
+    -moz-animation: fadein 3s; /* Firefox */
+    -o-animation: fadein 3s; /* Opera */
+
+    animation: fadein 3s;
+    animation-delay: 3.9s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation-delay: 3.9s;
     animation-fill-mode: forwards;
     opacity:0;
 }
