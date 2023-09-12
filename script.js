@@ -103,5 +103,24 @@ smallBox5.addEventListener("mouseout", mouseout5);
 smallBox5.addEventListener("click", clickSmallBox5);
 
 
+const smallBox6 = document.querySelector("#sb6");
+const smallBoxText6 = document.querySelector("#sbt6");
+const img6 = document.querySelector("#blog_img");
+function mouseon6() {
+    smallBox6.style.backgroundColor = "dimgray";
+    smallBoxText6.classList.remove("hidden");
+    img6.classList.add("dark");
+}
+function mouseout6() {
+    smallBox6.style.backgroundColor = "white";
+    smallBoxText6.classList.add("hidden");
+    img6.classList.remove("dark");
+}
+function clickSmallBox6() {
+    window.open("https://blog.naver.com/pangsu_dev");
+}
+smallBox6.addEventListener("mouseover", mouseon6);
+smallBox6.addEventListener("mouseout", mouseout6);
+smallBox6.addEventListener("click", clickSmallBox6);
 
 window.addEventListener("contextmenu", e => e.preventDefault());
